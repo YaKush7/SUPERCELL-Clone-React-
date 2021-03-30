@@ -1,0 +1,7 @@
+.games {
+  display: block;
+}
+
+.triggerGames:hover + .games {
+  display: none;
+}
