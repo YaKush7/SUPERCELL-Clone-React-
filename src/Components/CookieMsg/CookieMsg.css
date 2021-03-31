@@ -1,0 +1,23 @@
+.cookiemsg {
+  background-color: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.msg {
+  font-size: 15px;
+  color: rgb(187, 187, 187);
+}
+
+.msgLink {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+}
+
+.consent {
+  font-size: 14px;
+  font-weight: bold;
+}
