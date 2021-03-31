@@ -1,0 +1,50 @@
+footer {
+  background-color: black;
+  color: white;
+}
+
+.text1 {
+  margin-bottom: -10px;
+  font-size: 16px;
+}
+
+.social_glassdoor {
+  height: 30px;
+  margin-top: -16px;
+}
+
+.appstore {
+  height: 48px;
+  margin-top: 6px;
+}
+
+.playstore {
+  height: 70px;
+}
+
+hr {
+  background-color: white;
+}
+
+.fitems {
+  display: inline-flex;
+  list-style-type: none;
+  font-size: 13px;
+  font-weight: bold;
+  padding-left: 1px;
+}
+
+.address {
+  list-style-type: none;
+  font-size: 14px;
+  color: rgb(95, 95, 95);
+  padding-left: 1px;
+}
+
+.fitems > li {
+  margin-right: 20px;
+}
+
+.flogo {
+  height: 60px;
+}

@@ -40,23 +40,23 @@ const Navigation = (props) => {
 
   return (
     <div>
-      <Navbar dark expand="md" style={{ backgroundColor: "black" }}>
-        <img src={logo} href="#home" alt="logo" style={{ height: 70, width: 70 }} onMouseEnter={offAll} />
+      <Navbar dark expand="md" className="navigation">
+        <img src={logo} href="#home" alt="logo" className="logo" onMouseEnter={offAll} />
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <NavLink href="/games/" className="ml-4 h5 triggerGames" onMouseEnter={onGames}>
+              <NavLink href="/games/" className="menuItem ml-4 triggerGames" onMouseEnter={onGames}>
                 Games
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/careers/" className="ml-4 h5" onMouseEnter={onCareers}>
+              <NavLink href="/careers/" className="menuItem ml-4" onMouseEnter={onCareers}>
                 Careers
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/support/" className="ml-4 h5" onMouseEnter={offAll}>
+              <NavLink href="/support/" className="menuItem ml-4" onMouseEnter={offAll}>
                 Support
               </NavLink>
             </NavItem>
@@ -64,7 +64,7 @@ const Navigation = (props) => {
           <Nav>
             <NavItem>
               <NavLink href="#social" id="mitem">
-                <img src={sid} alt="supercell id" className="mt-1 mr-1" style={{ height: 30 }} />
+                <img src={sid} alt="supercell id" className="mt-2 mr-1" style={{ height: 30 }} />
               </NavLink>
             </NavItem>
             <NavItem>
@@ -94,7 +94,7 @@ const Games = () => {
         {GamesItems.map((item) => {
           return (
             <NavItem key={item.index}>
-              <NavLink href={item.link} className="my-3 ml-4 h5">
+              <NavLink href={item.link} className="my-2 ml-4 menuItem">
                 {item.game}
               </NavLink>
             </NavItem>
@@ -112,7 +112,7 @@ const Careers = () => {
         {CareersItems.map((item) => {
           return (
             <NavItem key={item.index}>
-              <NavLink href={item.lunk} className="my-3 ml-4 h5">
+              <NavLink href={item.lunk} className="my-2 ml-4 menuItem">
                 {item.carr}
               </NavLink>
             </NavItem>

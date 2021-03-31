@@ -1,3 +1,16 @@
+.navigation {
+  background-color: black;
+}
+
+.logo {
+  height: 70px;
+  width: 70px;
+}
+
+.menuItem {
+  font-size: 16px;
+}
+
 .games {
   display: block;
 }
