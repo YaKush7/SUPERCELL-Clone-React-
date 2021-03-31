@@ -40,7 +40,7 @@ const Navigation = (props) => {
 
   return (
     <div>
-      <Navbar dark expand="md" className="navigation">
+      <Navbar dark expand="md" className="navigation" id="navigation">
         <img src={logo} href="#home" alt="logo" className="logo" onMouseEnter={offAll} />
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
