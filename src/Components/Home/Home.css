@@ -1,0 +1,61 @@
+.home-Bg {
+  margin-top: 40px;
+  background: url(./assets/bg_hero_frontpage.jpg);
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#custContainer {
+  max-width: 90%;
+}
+
+.h-title {
+  text-align: center;
+  padding: 180px 0;
+}
+
+.h-items {
+  max-width: 100%;
+  padding: 30px;
+}
+
+.h-c-title {
+  color: rgb(226, 43, 180);
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.h-c-heading {
+  padding-top: 6px;
+  font-size: 15px;
+}
+
+.h-butText {
+  padding: 5px 10px 5px 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.h-d1 {
+  margin-top: 40px;
+  background: url(./assets/d1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.h-d2 {
+  margin-top: 40px;
+  background: url(./assets/d2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.h-dtext {
+  color: white;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}

@@ -20,14 +20,14 @@ const CookieMsg = () => {
       <div className="cookiemsg p-2">
         <Container>
           <Row>
-            <Col xs="10">
+            <Col xs="9">
               <span className="msg">Our site uses cookies to enhance your user experience and measure site traffic.</span>
               <br />
               <a href="https://supercell.com/en/privacy-policy/" className="msgLink">
                 Learn More
               </a>
             </Col>
-            <Col xs="2" className="my-auto">
+            <Col xs="3" className="my-auto d-flex justify-content-end">
               <Button color="primary" onClick={acceptCookie}>
                 <span className="consent px-1">GOT IT!</span>
               </Button>

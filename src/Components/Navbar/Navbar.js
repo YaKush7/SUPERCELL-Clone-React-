@@ -39,9 +39,11 @@ const Navigation = (props) => {
   };
 
   return (
-    <div>
-      <Navbar dark expand="md" className="navigation" id="navigation">
-        <img src={logo} href="#home" alt="logo" className="logo" onMouseEnter={offAll} />
+    <div id="navigation">
+      <Navbar dark expand="md" className="navigation">
+        <a href="/">
+          <img src={logo} alt="logo" className="logo" onMouseEnter={offAll} />
+        </a>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
@@ -51,19 +53,19 @@ const Navigation = (props) => {
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/careers/" className="menuItem ml-4" onMouseEnter={onCareers}>
+              <NavLink href="#careers" className="menuItem ml-4" onMouseEnter={onCareers}>
                 Careers
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/support/" className="menuItem ml-4" onMouseEnter={offAll}>
+              <NavLink href="#support" className="menuItem ml-4" onMouseEnter={offAll}>
                 Support
               </NavLink>
             </NavItem>
           </Nav>
           <Nav>
             <NavItem>
-              <NavLink href="#social" id="mitem">
+              <NavLink href="#sid" id="mitem">
                 <img src={sid} alt="supercell id" className="mt-2 mr-1" style={{ height: 30 }} />
               </NavLink>
             </NavItem>
@@ -89,7 +91,7 @@ const Navigation = (props) => {
 
 const Games = () => {
   return (
-    <Navbar dark expand="md" style={{ backgroundColor: "rgba(0, 0, 0, 0.638)" }}>
+    <Navbar dark expand="md" style={{ backgroundColor: "rgba(0, 0, 0, 0.8)" }}>
       <Nav className="mr-auto" navbar>
         {GamesItems.map((item) => {
           return (
@@ -107,7 +109,7 @@ const Games = () => {
 
 const Careers = () => {
   return (
-    <Navbar dark expand="md" style={{ backgroundColor: "rgba(0, 0, 0, 0.638)" }}>
+    <Navbar dark expand="md" style={{ backgroundColor: "rgba(0, 0, 0, 0.8)" }}>
       <Nav className="mr-auto" navbar>
         {CareersItems.map((item) => {
           return (

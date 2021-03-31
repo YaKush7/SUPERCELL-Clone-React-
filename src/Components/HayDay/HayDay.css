@@ -1,0 +1,56 @@
+.hay-Bg {
+  margin-top: 40px;
+  background: url(./assets/bg_hero_frontpage.jpg);
+  height: 40vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#custContainer {
+  max-width: 90%;
+  color: black;
+}
+
+.hay-items {
+  max-width: 100%;
+  padding: 30px;
+}
+
+.hay-store {
+  height: 45px;
+  margin-right: 10px;
+}
+
+.hay-c-text {
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.hay-Bg2 {
+  margin-top: 40px;
+  background: url(./assets/bg2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.my-cont {
+  height: 100%;
+  color: white;
+}
+
+.my-row {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: white;
+}
+
+#carou-item {
+  display: inline-block;
+  margin: 40px;
+}
+
+.hay-d-items {
+  max-width: 100%;
+}

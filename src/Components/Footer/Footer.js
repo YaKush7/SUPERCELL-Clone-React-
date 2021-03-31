@@ -34,7 +34,7 @@ const Footer = () => {
             </a>
           </Col>
           <Col sm="12" md="6" className="my-auto d-flex justify-content-end">
-            <a href="https://supr.cl/appstorescgames" class="appstore">
+            <a href="https://supr.cl/appstorescgames" className="appstore">
               <img alt="Download from app store" src={app_store} className="appstore"></img>
             </a>
             <a href="https://play.google.com/store/apps/dev?id=6715068722362591614&hl=en&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
@@ -54,15 +54,15 @@ const Footer = () => {
           </Col>
         </Row>
         <Row className="lastRow">
-          <Col xs="11">
-            <ul class="address">
+          <Col xs="9">
+            <ul className="address">
               <li>Supercell Oy</li>
               <li>Jätkäsaarenlaituri 1</li>
               <li>00180 Helsinki</li>
               <li>Finland</li>
             </ul>
           </Col>
-          <Col xs="1">
+          <Col xs="3" className="d-flex justify-content-end">
             <img alt="logo" src={logo} className="flogo"></img>
           </Col>
         </Row>
