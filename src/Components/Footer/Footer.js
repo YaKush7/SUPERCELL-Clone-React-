@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <footer>
       <Container>
-        <Row>
+        <Row className="pt-3">
           <Col sm="12" md="6" className="my-3">
             <div className="text1">Follow us on</div>
             <br />
@@ -53,7 +53,7 @@ const Footer = () => {
             </ul>
           </Col>
         </Row>
-        <Row>
+        <Row className="lastRow">
           <Col xs="11">
             <ul class="address">
               <li>Supercell Oy</li>
